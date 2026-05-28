@@ -43,7 +43,7 @@ Expected Concepts:
 
 =================================================
 """
-
+# Write your code below this line
 password = input("Enter password: ")
 
 has_digit = False
@@ -58,4 +58,4 @@ for ch in password:
 if len(password) >= 8 and has_digit and has_upper:
     print("Strong Password")
 else:
-    print("Weak Password")# Write your code below this line
+    print("Weak Password")
