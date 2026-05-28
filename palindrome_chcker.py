@@ -35,15 +35,6 @@ Expected Concepts:
 
 =================================================
 """
--Using Loop
-s = input("Enter a string: ")
-rev = ""
-for i in s:
-    rev = i + rev
-   if s == rev:
-    print("Palindrome")
-else:
-    print("Not Palindrome")
    
 -Using Slicing 
 s = input("Enter a string: ")
